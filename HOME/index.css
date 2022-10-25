@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+head {
+    background-image: url("../ASSETS/Logos/LOGO\ HEADER.svg");
+  }
+body {
+    font-family:'Courier New', Courier, monospace;
+    width: calc(100vw - (100vw - 100%));
+
+}
+header {
+    background-color: black;
+    padding: 16px 32px; 
+}
+body{background-color: black;}
+
+footer {
+background-color: black;
+
+}
+
+ main nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    
+     
+    
+ }
+ #logoHeader {
+    width: 15vw;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+  #logoFooter {
+    width: 15vw;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 20px;
+    height: 200px;
+
+}
+  
